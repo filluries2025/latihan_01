@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Sederhana</title>
+  <style>
+    .kotak {
+      display: flex; /* Mengubah kontainer jadi flexbox */
+      gap: 10px; /* Jarak antar kotak */
+      border: 2px solid rgb(218, 218, 218);
+      padding: 5px;
+    }
+
+    .baris {
+      background-color: rgb(221, 137, 221);
+      padding: 20px;
+      text-align: center;
+      justify-content: center; /* Membuat isi rata tengah */
+      flex: 1; /* Membuat item fleksibel */
+    }
+  </style>
+</head>
+<body>
+  <h2>Contoh CSS-Flexbox Sederhana</h2>
+
+  <div class="kotak">
+    <div class="baris">Kotak 1</div>
+    <div class="baris">Kotak 2</div>
+    <div class="baris">Kotak 3</div>
+  </div>
+</body>
+</html>
